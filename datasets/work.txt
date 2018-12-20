@@ -1,0 +1,17 @@
+aptitude
+strings
+arrays
+structures
+bitfields
+profit and loss
+time problems
+vocabulary
+soft skills
+C concepts
+functions
+return statements
+python programming
+project work
+Machine learning
+c concepts
+pointers

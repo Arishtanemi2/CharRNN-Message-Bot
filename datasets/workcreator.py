@@ -19,7 +19,7 @@ ampmlist=['AM','PM']
 
 
 def main():
-    for i in range(0,10000):
+    for i in range(0,100000):
         inputfile.write("Work Done: "+works[random.randrange(0,works.__len__())])
         starthour=hourlist[random.randrange(0,hourlist.__len__())]
         endhour=int(starthour)+2
@@ -35,7 +35,7 @@ def main():
         if workminutes=='00' :
             inputfile.write("Duration: "+'2 hours '+'\n');
         else:
-            inputfile.write("Duration: "+'2 hours '+ workminutes+ " minutes"+'\n')
+            inputfile.write("Duration: "+'2 hours '+ str(endminutes)+ " minutes"+'\n')
         inputfile.write("Remarks: "+remarks[random.randrange(0,remarks.__len__())]+'\n')
     inputfile.close()
 
